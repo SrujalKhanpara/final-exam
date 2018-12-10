@@ -25,7 +25,8 @@ header("Location: " . $config_basedir);
 }
 else
 {
-header("Location: http://" .$_SERVER['HTTP_HOST']. $_SERVER['SCRIPT_NAME'] . "?error=1");
+  echo"hii"
+;header("Location: http://" .$_SERVER['HTTP_HOST']. $_SERVER['SCRIPT_NAME'] . "?error=1");
 }
 }
 
