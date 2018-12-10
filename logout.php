@@ -9,5 +9,7 @@ unset($_SESSION['SESS_USERID']);
 session_destroy();
 header("Location: ". $config_basedir);
 echo 'logout complite';
+echo 'logout complite';
+
 require("footer.php");
 ?>
